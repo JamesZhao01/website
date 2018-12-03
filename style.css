@@ -18,6 +18,7 @@
     align-content:center;
     flex-direction:column;
 	background: url('https://images.unsplash.com/photo-1526289034009-0240ddb68ce3?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c93b9bd05444a8be8a81e2e0baad8eec&auto=format&fit=crop&w=1351&q=80') no-repeat center center fixed;
+/* 	background-color: yellow;*/
   height: 100vh;
   -webkit-background-size: cover;
   -moz-background-size: cover;
