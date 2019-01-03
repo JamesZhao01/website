@@ -1,16 +1,41 @@
+body {
+		font-family: 'Montserrat', sans-serif;
+}
 
+#home {
+	backgorund-attachment: fixed;
+	background: url('https://images.unsplash.com/photo-1526289034009-0240ddb68ce3?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c93b9bd05444a8be8a81e2e0baad8eec&auto=format&fit=crop&w=1351&q=80') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.quote {
+	font-size: 25px;
+}
+
+.mainbody {
+	min-width: 80vw;
+}
 .content-text {
-	margin:5px;
-	padding: 5px;
-	font: 24px black;
+	padding: 3px;
+	font-size: 20px;
+
 }
-@media screen and (max-width: 600px) {
-  .content-text {
-  	margin:5px;
-  	padding: 5px;
-	font: 22px black;
-	}
+
+.content-text-small {
+	padding: 3px;
+	font-size: 16px;
 }
+
+.image {
+	padding: 14px;
+	background-color: lightgray;
+}
+
+
+
 .title-text {
 	-webkit-border-radius: 12px;
 	-moz-border-radius: 12px;
@@ -26,18 +51,15 @@
 	background-color: #ADFFEC;
 }
 .sector {
-	min-height: 95vh;
+	min-height: 85vh;
 }
 .jumbotron{
+	background-color: rgba(0, 0, 0, 0);
 	display: flex;
     justify-content:center;
     align-content:center;
     flex-direction:column;
-	background: url('https://images.unsplash.com/photo-1526289034009-0240ddb68ce3?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c93b9bd05444a8be8a81e2e0baad8eec&auto=format&fit=crop&w=1351&q=80') no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
+	
 }
 .fencing-body {
 	background-color: #D4D4D4;
