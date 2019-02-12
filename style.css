@@ -1,5 +1,5 @@
-body {
-		font-family: 'Montserrat', sans-serif;
+html, body {
+	height: 100%;
 }
 
 #home {
@@ -81,3 +81,5 @@ hr {
 	display: flex;
 	align-items:center;
 }
+
+
