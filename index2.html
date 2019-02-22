@@ -11,9 +11,21 @@
 	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 	<link rel = "stylesheet" href = "style.css" type = "text/css">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-	<title>About Ted</title>
+	<title>Marin Pentatalon Club</title>
+	<style>
+		nav ul{
+			text-align: center;
+   			list-style-type: none;
+		}
+		nav li {
+			margin-left: 20px;
+			margin-right: 20px;
+		}
+	</style>
+
 </head>
-<body>
+
+<body id = "home">
 	<script>
 		AOS.init();
 	</script>
@@ -27,11 +39,11 @@
 				<span class="navbar-toggler-icon"></span>
 			</button>
 			<div class="collapse navbar-collapse" id="navbarText">
-				<ul class="navbar-nav ml-auto">
-					<li class="nav-item">
+				<ul class="navbar-nav ml-auto mr-auto">
+					<li class="nav-item active">
 						<a class="nav-link" href="index.html">Home</a>
 					</li>
-					<li class="nav-item active">
+					<li class="nav-item">
 						<a class="nav-link" href="about.html">About Ted</a>
 					</li>
 					<li class="nav-item">
@@ -47,34 +59,40 @@
 			</div>
 		</div>
 	</nav>
-	<br>
-	<!-- Body -->
-	<div class = "container sector vertical">
-		<div>
-			<p class = "display-4 title-text">About Ted Eckersdorff</p>
-			<hr>
-			<div class = "row p-4">
-				<div class = "col-lg-5 vertical">
-					<img class = "img-fluid" src = "img/ted.jpeg">
+	<!-- banner -->
+	<!-- image credit to : https://unsplash.com/photos/xyuYk9oLA8I -->
+	<div class = "container-fluid p-0 m-0">
+		<!-- Splash -->
+		<!-- Main Body -->
+		<div class = "container mainbody sector vertical bg-white mt-3">
+			<div class = "container">
+				<p class = "display-4 text-center py-4">Marin Pentathlon Club</p>
+				<hr>
+				<p class = "display-4 text-center py-4">Fencing - Fitness Development</p>
+				<div class = "row">	
+					<div class = "col-lg-5 text-center vertical">
+						<img src = "img/homeimage.jpeg" class = "img-fluid">
+					</div>
+					<div class = "col-lg-7">
+						<p class = "content-text">
+							Ted Eckersdorff teaches beginners to fence and get in shape at the same time. With 45 minute one on one lessons he teaches the correct techniques of foil and epee fencing. Over time the fencer develops correct “muscle memory” to become a good fencer. Once the fencer attains a certain degree of mastery of the sword with correct footwork, they can then go on to fence other students. All aspects of fencing are taught including the advance, retreat, lunge, fleche, parries, strategy, and mental training for fencing. With this unique approach, Ted has taken students to local and regional competitions, including the Junior Olympics and the U.S. Fencing National Championships.  Students have gone on to fence at Yale, UC Berkeley, Stanford, NYU  and Colby to name a few. You can contact Ted at <a href = "contact.html">ted33@pacbell.net</a> today, for your first lesson.
+						</p>
+					</div>
+
 				</div>
-				<div class = "col-lg-7">
-					<p class = "content-text">
-						Ted was a member of the U.S. Modern Pentathlon National  Team for 12 years. Modern Pentathlon is an Olympic event that includes equestrian show jumping, fencing, pistol shooting, swimming and  running.
-						He started out as a swimmer at Queens College of C.U.N.Y. and was the Captain and M.V.P. his senior year. He  won the 1978 Athlete-Scholar Award,  and  ran cross country and fenced for the Knights. Upon graduation, he moved to the Olympic Training Center in Texas to pursue modern pentathlon training and competition. In 1979 he qualified for the C.I.S.M. Military World Championships and took the team silver, and in 1981 represented the U.S. at the World Championships, where the U.S. team won the equestrian event.  At his second CISM World Championships, he took the team bronze medal, and 9th overall.  In 1983, Ted was  the National Champion in  Epee team fencing.
-						Ted has been coaching fencing and introducing students to the sport of fencing at his “salle”  in Mill Valley for the past 21 years. 
-					</p>
-				</div>
-			</div>
+			</div>	
 			
-			<div class = "text-center font-italic quote">
-				“Learn to Fence, have Fun, and get in Shape"
+		</div>
+		<!-- Quote -->
+		<div class = "container-fluid my-5">
+			<div class = "text-center font-italic bg-dark text-light p-5 content-text quote">
+				“I enjoy introducing people to the exciting sport of fencing”
 			</div>
 		</div>
+
 	</div>
-	<hr class = "container thin">
-	
 	<!-- Footer -->
-	<footer class="pt-5 bg-black">
+	<footer class="bg-black">
 		<div class="container-fluid bg-secondary p-3">
 			<p class="m-0 text-center text-white small">Copyright &copy; Ted Eckersdorff 2018</p>
 		</div>
