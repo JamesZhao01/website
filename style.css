@@ -11,23 +11,42 @@ nav li {
 	margin-right: 20px;
 }
 
+nav li:hover{
+	animation: changecolor 0.3s forwards;
+}
+
+@keyframes changecolor{
+	0%{background-color: #343A40;}
+	100%{background-color: #4d565e};
+}
+
 p {
 	padding: 3px;
 	font-size: 20px;
 }
 
-#wrap {
-	background-image: url('img/background2.JPG');
-	background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    min-height: calc(100vh - 57px); 
+hr {
+	border: 1px solid gray;
 }
 
-.fullpagebody{
+h.thin{
+	border: 1px solid lightgray;
+}
+
+.full-page-body{
 	 min-height: calc(100vh - 57px - 56px); 
 }
 
+.background-image{
+	background-image: url('img/background2edited.JPG');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.credit{
+	font-size: 10px;
+	color: black;
+}
 
 .quote {
 	font-size: 25px;
@@ -39,57 +58,7 @@ p {
 	font-size: 16px;
 }
 
-.image {
+.image-border{
 	padding: 14px;
 	background-color: lightgray;
 }
-
-
-
-.title-text {
-	-webkit-border-radius: 12px;
-	-moz-border-radius: 12px;
-	border-radius: 12px;
-
-}
-
-.navbar {
-	margin-bottom: 0px;
-}
-
-.homebanner {
-	background-color: #ADFFEC;
-}
-.sector {
-	min-height: 90vh;
-}
-.jumbotron{
-	background-color: rgba(0, 0, 0, 0);
-	display: flex;
-	justify-content:center;
-	align-content:center;
-	flex-direction:column;
-	
-}
-.fencing-body {
-	background-color: #D4D4D4;
-	box-shadow: 0 0 14px 14px #D4D4D4;
-}
-.quote {
-	font-size: 24px;
-}
-
-hr {
-	border: 1px solid gray;
-}
-
-.thin{
-	border: 1px solid lightgray;
-}
-
-.vertical{
-	display: flex;
-	align-items:center;
-}
-
-
