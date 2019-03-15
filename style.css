@@ -7,8 +7,8 @@ nav ul{
 	list-style-type: none;
 }
 nav li {
-	margin-left: 20px;
-	margin-right: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
 nav li:hover{
@@ -61,4 +61,19 @@ h.thin{
 .image-border{
 	padding: 14px;
 	background-color: lightgray;
+}
+
+.vertical {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.modal-body{
+}
+
+.modal-footer{
+	text-align: center !important;
+	align-items: center;
+    justify-content: center;
 }
